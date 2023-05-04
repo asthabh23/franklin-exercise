@@ -16,9 +16,10 @@ main .hero {
 
 main .hero h1 {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
+  /* margin-left: auto;
+  margin-right: auto; */
+  color: red;
+  font-size: 40px;
 }
 
 main .hero picture {

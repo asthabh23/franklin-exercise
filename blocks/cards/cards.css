@@ -12,8 +12,19 @@
   background-color: var(--background-color)
 }
 
+.cards.no-border > ul > li {
+  border: none;
+}
+
 .cards .cards-card-body {
   margin: 16px;
+  font-size: 15px;
+}
+
+.cards.no-border .cards-card-body {
+  text-align: center;
+  color: red;
+  font-size: 25px;
 }
 
 .cards .cards-card-image {
@@ -28,4 +39,15 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .cards.no-border > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-gap: 16px;
+  }
 }

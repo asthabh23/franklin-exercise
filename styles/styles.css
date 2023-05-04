@@ -59,8 +59,9 @@ body {
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   display: none;
+  background-color: #EEEEE7;
 }
 
 body.appear {
@@ -240,4 +241,31 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+main .section.cards-container {
+  padding-top: 20px;
+}
+
+main .section .default-content-wrapper {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+main .section .default-content-wrapper h3 {
+  color: green;
+}
+
+main .section.background {
+  background-color: var(--highlight-background-color);
+  padding: 20px;
+}
+
+main .section.background .default-content-wrapper img {
+  width: 200px;
+  height: 200px;
+}
+
+main .section.background .default-content-wrapper p {
+  text-decoration: line-through;
 }

@@ -37,6 +37,7 @@
 .columns em {
   color: blue;
   font-weight: bold;
+  font-style: normal;
 }
 
 @media (min-width: 900px) {

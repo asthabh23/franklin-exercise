@@ -149,7 +149,7 @@ header .nav-brand {
 
 header nav .nav-brand img {
   width: 128px;
-  height: auto;
+  height: 60px;
 }
 
 /* sections */
@@ -195,6 +195,7 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav[aria-expanded="true"] .nav-sections {
     align-self: unset;
+    text-align: right;
   }
 
   header nav .nav-sections .nav-drop {

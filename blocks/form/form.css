@@ -37,7 +37,7 @@ main .field-wrapper .required {
 
   main .form textarea {
     min-height: 100px;
-    background-color: #EFEEE7;
+    background-color: white;
   }
 
   main .form input:hover,
@@ -130,7 +130,7 @@ main .field-wrapper .required {
     font-size: 0.8em;
     width: 120px;
     height: 40px;
-    background-color: #EFEEE7;
+    background-color: white;
     color: black;
   }
 

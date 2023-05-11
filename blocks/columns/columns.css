@@ -1,6 +1,8 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+  font-size: 15px;
 }
 
 .columns img {
@@ -19,8 +21,22 @@
   display: block;
 }
 
-.columns > div {
-  font-size: 15px;
+.columns h3 {
+  font-size: 25px;
+}
+
+.columns h3 a {
+  color: black;
+}
+
+.columns h3 a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.columns em {
+  color: blue;
+  font-weight: bold;
 }
 
 @media (min-width: 900px) {

@@ -12,5 +12,5 @@ main .myblock-wrapper .myblock {
 }
 
 main .myblock-wrapper .myblock div > div {
-    text-align: center;
+    padding-left: 20px;
 }
